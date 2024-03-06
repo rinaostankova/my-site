@@ -1,0 +1,146 @@
+body,
+body * {
+  font-family: Gudea, Tahoma;
+  margin: 0;
+  padding: 0;
+  color: rgba(26, 26, 26, 0.88);
+}
+head {
+  width: 1000px;
+}
+.mainpage {
+  width: 1000px;
+  height: 700px;
+  background-image: url(./background.png);
+  background-position: center center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+.header_title-text {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 27px;
+  left: 382px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 45px;
+  color: rgba(26, 26, 26, 1);
+}
+.header-menu {
+  position: absolute;
+  top: 91px;
+  left: 288px;
+}
+.header-menu_item {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 12px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.header-menu_item:hover {
+  text-decoration-line: underline;
+}
+.annotation {
+  width: 1000px;
+}
+.annotation-colection {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 28px;
+}
+.annotation-name {
+  margin: 0;
+  padding: 0;
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 48px;
+}
+.annotation-text {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.shop {
+  margin-top: 40px;
+}
+.shop-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.shop-goods {
+  width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 62px;
+}
+.goods-item {
+  width: 449px;
+  height: 547px;
+}
+.goods-item-img {
+  width: 449px;
+  height: 460px;
+  margin-bottom: 15px;
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.goods-item-name {
+  margin-left: 30px;
+  font-weight: 400;
+  font-size: 28px;
+}
+.goods-item-price {
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 6px;
+  display: flex;
+}
+.item-price-number {
+  height: 33px;
+  line-height: 32px;
+  font-weight: 700;
+  font-size: 28px;
+}
+.item-price-currency {
+  margin: 4px;
+  width: 24px;
+  height: 24px;
+}
+.footer {
+  margin-top: 40px;
+  height: 107px;
+  width: 1000px;
+  background: linear-gradient(rgba(236, 236, 238, 1), rgba(240, 240, 242, 1));
+  display: flex;
+  align-items: center;
+}
+.footer-content {
+  display: flex;
+  padding-left: 20px;
+}
+.footer-content-copyright {
+  width: 24px;
+  height: 24px;
+}
+.footer-content-text {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 8px;
+}
