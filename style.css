@@ -31,9 +31,10 @@ body * {
   margin-left: 12px;
   font-weight: 400;
   font-size: 15px;
+  text-decoration: none;
 }
-.header-menu_item:hover {
-  text-decoration-line: underline;
+.header-menu_current-item {
+  text-decoration: underline;
 }
 .shopping-cart {
   position: absolute;
